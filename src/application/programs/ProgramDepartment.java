@@ -1,4 +1,4 @@
-package application;
+package application.programs;
 
 import java.util.List;
 import java.util.Scanner;
@@ -7,7 +7,7 @@ import model.dao.DaoFactory;
 import model.dao.DepartmentDao;
 import model.entities.Department;
 
-public class Program2 {
+public class ProgramDepartment {
 
 	public static void main(String[] args) {
 
