@@ -101,7 +101,7 @@ public class SellerServices {
 			break;
 		}
 		sellerDao.update(seller);
-		System.out.println("Update Completed!");
+		System.out.println("Update Completed!\n" + seller);
 		sc.close();
 	}
 

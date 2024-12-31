@@ -41,6 +41,9 @@ public class ProgramSeller {
 		case 6: 
 			sellerService.sellerDelete();
 			break;
+		default: 
+			System.out.println("Operation not found!");
+			break;
 		}
 		sc.close();
 	}
